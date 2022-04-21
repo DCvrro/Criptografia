@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
     driver = webdriver.Chrome(ubicacionDriver, chrome_options=options)
     correo=['mgallardor@gorecoquimbo.cl']
-    contraseña =['6c0eb35162d3e5a06a096d67589cfa97']
+    contraseña =['A202cb962ac5912']
 
     driver.set_window_position(1000,0)
     driver.maximize_window()
@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     rut = driver.find_element(By.ID,"rut")
     rut.clear()
-    rut.send_keys('11111111-1')
+    rut.send_keys('20469491-5')
     time.sleep(1)
 
     dia = driver.find_element(By.ID,"dob-day")
@@ -76,9 +76,9 @@ if __name__ == "__main__":
 
     driver.find_element(By.ID,"is_subscribed").click()
     driver.find_element(By.ID,"term_conditions").click()
-    time.sleep(10)
-    driver.find_element(By.ID,"recaptcha-checkbox-border").click()
-    time.sleep(10)
+    time.sleep(20)
+    driver.find_element(By.XPATH,'//*[@id="form-validate"]/fieldset[3]/div[8]/div/button').click()
+    time.sleep(50)
 
 
     driver.close()
