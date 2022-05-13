@@ -1,0 +1,132 @@
+%
+% LaTeX template reporte
+%
+\documentclass[]{article}
+\usepackage[paperheight=27.94cm,paperwidth=21.59cm,bindingoffset=0in,left=2.5cm,right=2.0cm, top=2.5cm,bottom=2.5cm, headheight=200pt, headsep=1.0\baselineskip]{geometry}
+\usepackage{graphicx,lastpage}
+\usepackage{upgreek}
+\usepackage{censor}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{pdfpages}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{rotating}
+\usepackage{animate}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\renewcommand{\tablename}{Tabla}
+\usepackage{fancyhdr}
+\usepackage{movie15}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\footrulewidth}{0.4pt}
+\lhead[\leftmark]{Criptografía.}
+\rhead[Taller de Redes: Tarea 5]{\rightmark}
+\lfoot[\thepage]{}
+\rfoot[]{\thepage}
+\usepackage{moreverb}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{minted}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{mygreen}{RGB}{0,128,0}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=mygreen,
+}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily,
+  showstringspaces=false,
+  commentstyle=\color{red},
+  keywordstyle=\color{blue}
+}
+
+
+
+\begin{document}
+%------------------Portada--------------
+    \begin{titlepage}
+        \centering
+        \vspace{1cm}
+        {\scshape\Large Universidad Diego Portales \par}
+        \vspace{2cm}
+        {\scshape\Huge Tarea 1: PASSWORD\par}
+        \vspace{1cm}
+        \vspace{1cm}
+        {\itshape\Large Profesor: Víctor Manriquez \par}
+        \vfill
+        {\Large Integrantes: \par}
+        {\Large Diego Carrillo \par}
+        \vfill
+        {\Large 15 de Mayo 2022 \par}
+    \end{titlepage}
+%-----------------------------------------------
+
+\tableofcontents
+ \newpage
+ \section{Introducción}
+ En el presente laboratorio, se enfoca principalmente en auditar un sitio web, en donde se pondrá a prueba la seguridad e integrad de este mismo sitio. 
+ \\\\
+ Poniendo a prueba, la capacidad, de cada pagina, para detectar ataques de fuerza bruta, o bien, procesos automatizados.
+ \\\\
+ Estos procesos automatizados, fueron generados para contraseñas que se encontraron, para este mismo laboratorio, mediante el uso de Dorks. 
+\section{Desarrollo}
+    A continuación, se mostraran los hitos que componen de este laboratorio, en conjunto con vídeos,
+    fotos y código correspondiente para cada caso. 
+
+\subsection{Hito I}
+
+    Para empezar esta actividad, se debió de buscar filtraciones de datos en paginas Chilenas, mediante el uso de dorks.
+     Estas filtraciones,deberían de poder contener como mínimo un correo y contraseña para cada usuario.      
+    \\\\
+    Durante el desarrollo de este hito, surgió una gran cantidad de inconvenientes, debido a que, si bien, se poseia un conocimiento
+    sobre el uso de dorks, pero era limitado hasta un cierto punto.Y por otro lado, los sitios en donde se encontraban las filtraciones
+    tambien eran limitados.
+    \\\\
+    Se nos recomendó tener como referencia la pagina de pastebin, el cual es un sitio en donde la comunidad sube sus aportes y datos que han
+    obtenido mediante filtraciones a gran escala o simplemente datos que obtienen de manera individual.
+    \\\\
+    Como los datos que se fueran encontrando, debian de irse rellenando en un excel; provocó que exista competitividad dentro de los 
+    integrantes del curos, ya que, los links que se obtuvieron, se repetian, lo que negó el uso de los datos encontrados. Este hito,
+    el estudiante lo realizo, aproximadamente, unas 5 veces y fue el que mas tiempo tomó debido a la escases de datos. 
+    \\\\
+    El Dork utilizado para encontrar las credenciales utilizadas fue el siguiente:
+    \\\\
+    \begin{center}
+        \textbf{intext:"LulzSecAR" site:'pastebin.com'}
+    \end{center}
+    \\\\
+    Fue creado para ser utilizado en el buscado de Google, y basicamante, se basa en buscar dentro de la pagina pastebin.com a un usuario, el cual, es conocido por que sus publicaciones o
+    comentarios son filtraciones, entonces, se decide ir pos las publicaciones de este usuario para hacer una busqueda que garantice
+    un resultado. 
+
+    \\\\
+    Posteriormente, 
+
+    
+
+\newpage
+
+\subsection{Hito II}
+
+\subsection{Hito III}
+
+\subsection{Hito IV}
+
+
+
+\bibitem{Definicion SCADA} 
+Definicion SCADA,
+\\\url{https://www.redeszone.net/2017/01/05/conoce-este-motor-busqueda-ciberespacio-podras-localizar-host-facilmente/}
+\\
+
+
+
+\end{document}
