@@ -45,15 +45,25 @@
         El sistema no entrega una contraseña temporal al momento de solicitar reestablecer los datos, por ende, no se podra obtener una constraseña temporal por parte del sistema. 
     
     10.-¿El sitio recuerda contraseñas antiguas? ¿Cuántas? ¿Es posible eliminar esas contraseñas de la memoria del servidor (se pueden sobrescribir)? 
-
-    11.-Sitio correspondiente a ABCdin, no guarda informacion elacionada a contraseñas antiguas, es mas, permite cambiar la contraseña antigua por la misma.
+        Sitio correspondiente a ABCdin, no guarda informacion elacionada a contraseñas antiguas, es mas, permite cambiar la contraseña antigua por la misma.
         se probó cambiando las pass antigua: newPASS123 por exactamente la misma y fue aceptada sin ninguna notificacion por parte del sistema.
     
-    12.-¿Las políticas del usuario obligan a entregar información verdadera? Verifique si el sitio obliga a ingresar su segundo apellido. En caso de ser así, ¿Qué podría hacer un usuario que solo tenga uno, sin tener que falsificar sus datos?
-    
-    13.-¿El sitio es susceptible a ataques por fuerza bruta? ¿Cómo lo evita? Pruebe automatizando 100 accesos (recuerde que su cuenta se podría inhabilitar o bloquear, por lo que deberá realizar este proceso al final y no a última hora)
-    
-    14.-¿Existe la opción de eliminar su cuenta? En caso de ser así, ¿Queda algún indicio de la existencia de su cuenta? Para verificar si existe algún indicio de la cuenta se puede realizar lo siguiente:  Volver a registrarse con los mismos datos, o ir repitiendo datos (en distintas cuentas) para determinar cuáles se van guardando, Recuperar la contraseña.
-    
-    15.-¿Los resultados obtenidos se condicen con las políticas de privacidad y seguridad del sitio?
+    11.-¿Las políticas del usuario obligan a entregar información verdadera? Verifique si el sitio obliga a ingresar su segundo apellido. En caso de ser así, ¿Qué podría hacer un usuario que solo tenga uno, sin tener que falsificar sus datos?
+        Dentro de los terminos y condiciones aceptados al momento de crear la cuenta, esta establecido que se debe crear la cuenta con datos personales, es lo mas especifico que piden. Pero estos datos pueden ser falsificados o bien modificados sin tener algun aviso
+        o alerta de que no son reales. Pero, estos datos son utilizados para el contacto, o bien, para poder hacer valer seguros de compra. Ya que, todas las compras son asociadas a un rut de usuario, el cual debe coincidir con los 
+        datos que son ingresados. 
+        De no ser asi, la persona no podra optar, probablemente, a estos beneficios.
+        En terminos generales, se puede falsificar la informacion o bien omitir datos, aunque esta pagina web solo solicita el eso de nombre principal
+        y apellido, el resto es obtenido mediante el rut, el cual no puede ser modificado. 
 
+    12.-¿El sitio es susceptible a ataques por fuerza bruta? ¿Cómo lo evita? Pruebe automatizando 100 accesos (recuerde que su cuenta se podría inhabilitar o bloquear, por lo que deberá realizar este proceso al final y no a última hora)
+        El sitio de ABCdin es altamente susceptible a ataques por fuerza fuerza bruta, ya que este, no tiene ningun tipo de bloqueo ante multiples intentos fallidos con cuentas registradas.
+        Fue posible hacer los 100 intentos, y aproximadamente unos 40 extras sin tener ningun tipo de bloqueo, o restriccion de tiempo para volver a generar estos intentos. 
+        
+    13.-¿Existe la opción de eliminar su cuenta? En caso de ser así, ¿Queda algún indicio de la existencia de su cuenta? Para verificar si existe algún indicio de la cuenta se puede realizar lo siguiente:  Volver a registrarse con los mismos datos, o ir repitiendo datos (en distintas cuentas) para determinar cuáles se van guardando, Recuperar la contraseña.
+    
+    14.-¿Los resultados obtenidos se condicen con las políticas de privacidad y seguridad del sitio?
+
+        El sitio web, no tiene publicado ningun tipo de politicas de privacidad que especifique mucha informacion, lo unico que se encuentra en el sitio 
+        es que asegurna que sus datos seran encriptados y de tipo confidencial, sin poder tener accesos a ellos. Ademas, aseguran usar SSL dentro de su sitio web, asegurando que es el mejor
+        servicio utilizado en seguridad para paginas webs. 
